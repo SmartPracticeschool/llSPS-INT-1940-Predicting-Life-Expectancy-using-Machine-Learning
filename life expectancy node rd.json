@@ -1,1 +1,0 @@
-[{"id":"4e78cfa1.87e6b","type":"function","z":"265dd308.76498c","name":"pred","func":"var pred=global.get(\"pred\")\nreturn {payload:msg.payload.predictions[0].values[1]}","outputs":1,"noerr":0,"x":530,"y":120,"wires":[["5c1fc0e7.b4be8"]]}]
